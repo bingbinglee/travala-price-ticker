@@ -4,7 +4,7 @@ Unofficial community built price ticker extension for chrome
 ### What does it do?
 ```
 Show current market price on the persistent ticker (default currency USD)
-Show prices in BTC/ETH/NEO/USDT on click
+Show prices in BTC/ETH/USD on click
 SHow 24 hours, 7days, 30 days rolling average
 ```
 
