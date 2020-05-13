@@ -1,17 +1,12 @@
-# Idena Plus - A Chrome Extension
-Unofficial community built chrome extension which enhances and adds extra information to the official Idena Scan / Idena Explorer
+# Travala Price - A Chrome Extension
+Unofficial community built price ticker extension for chrome
 
-### What's new?
-v0.1.7
-```
-- Show +ve / -ve change accompanied with Arrow (for colorblind users)
-- Show Identity breakdown in percentage on epoch page
-- Show real-time USD price (Refreshed every couple seconds) on the DNA icon
-- Show small price popup on DNA extension in all windows
-```
 
 ### Who maintains Idena Plus Extension? 
-Idena Apps is currently being maintained by [@bingbinglee](https://github.com/bingbinglee/). It is open-source so feel free to contribute to the project. PRs are welcome. 
-If you like the directory then consider making a donation to 
+This extension is currently being maintained by [@bingbinglee](https://github.com/bingbinglee/). If you like using this extension please consider donating $AVA to 
 
-```0x140d5add76f3e4cc4538b9809601383bd74689df```
+Address:
+```bnb1c22qt8gzhzz9a2ngwnh5he8ddvfutl40jnnx32```
+
+Memo:
+```1864512799```
