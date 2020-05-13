@@ -3,9 +3,9 @@ Unofficial community built price ticker extension for chrome
 
 ### What does it do?
 ```
-Show current market price on the persistent ticker (default currency USD)
-Show prices in BTC/ETH/USD on click
-SHow 24 hours, 7days, 30 days rolling average
+- Show current market price on the persistent ticker (default currency USD)
+- Show prices in BTC/ETH/USD on click
+- Show 24 hours, 7days, 30 days, 1 year rolling average
 ```
 
 ### Who maintains Idena Plus Extension? 
