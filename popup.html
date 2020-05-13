@@ -1,12 +1,12 @@
 <!doctype html>
 <html>
   <head>
-    <title>Idena Plus Popup</title>
+    <title>Travala Price Popup</title>
     <style>
     	body {
     		margin: 0;
     		padding: 0;
-    		background: rgb(57, 60, 62);
+    		background: #5c5780;
     		width: 200px;
     		border-radius: 8px;
     	}
@@ -20,7 +20,7 @@
     		font-size: 1.2em;
     		font-weight: 400;
     		margin: auto;
-    		color: rgb(203, 203, 203);
+    		color: #efefef;
     		margin-top: 10px;
     		text-align: center;
     	}
@@ -30,7 +30,7 @@
 		    margin-right: 0;
 		    text-align: left;
 		    width: 50%;
-		    color: rgb(156, 156, 156);
+		    color: #d4c9ff;
 		    margin-bottom: 0px;
 		    margin-top: 0px;
     	}
@@ -45,18 +45,18 @@
 		    width: 100%;
 		    display: block;
     	}
-    	#USD, #BTC, #ETH, #h24, #d7, #d30 {
+    	#USD, #BTC, #ETH, #h24, #d7, #d30, #y1 {
     		width: 50%;
     		display: inline-block;
     		float: right;
     		text-align: right;
-    		color: rgb(255, 228, 165);
+    		color: #43e4ff;
     	}
     	.wrapper {
     		width: 90%;
 		    box-sizing: border-box;
 		    margin-top: 2em;
-		    background: rgb(41, 44, 46);
+		    background: #2d2c50;
 		    border-radius: 8px;
 		    margin: auto;
 		    margin-top: 1em;
@@ -72,21 +72,24 @@
 		}
     </style>
   </head>
-  <script src="js/popup.js"></script>
+  <script src="popup.js"></script>
   <body>
 
   <div class="wrapper">
 
   	<img src="icon.png"/>
-  	<h3>$DNA Price Summary</h3>
+  	<h3>$AVA Price Summary</h3>
 
   	<div class="price">
-  		<span class="mar"><p class="desc">USD:</p> <span id="USD">--</span></span>
-  		<span class="mar"><p class="desc">BTC:</p> <span id="BTC">--</span></span>
-  		<span class="mar"><p class="desc">ETH:</p> <span id="ETH">--</span></span>
+  		<span class="mar"><p class="desc">AVA/USD:</p> <span id="USD">--</span></span>
+  		<span class="mar"><p class="desc">AVA/BTC:</p> <span id="BTC">--</span></span>
+  		<span class="mar"><p class="desc">AVA/ETH:</p> <span id="ETH">--</span></span>
+      <br/>
+      <p style="color: #f0f0f0;">% change (USD)</p>
   		<span class="mar"><p class="desc">24 hrs:</p> <span id="h24">--</span></span>
   		<span class="mar"><p class="desc">07 days:</p> <span id="d7">--</span></span>
   		<span class="mar"><p class="desc">30 days:</p> <span id="d30">--</span></span>
+      <span class="mar"><p class="desc">1 year:</p> <span id="y1">--</span></span>
   	</div>
 
   </div>

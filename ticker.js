@@ -27,7 +27,7 @@ function ajax_get(url, callback) {
 
 function fetch()
 {
-	ajax_get('https://api.coinpaprika.com/v1/tickers/dna-idena?quotes=USD', function(data) {
+	ajax_get('https://api.coinpaprika.com/v1/tickers/ava-travala?quotes=USD', function(data) {
 	curprice = data['quotes']['USD']['price'];
 	buy = precise3(curprice);
 	chrome.browserAction.setBadgeText({text: buy});
