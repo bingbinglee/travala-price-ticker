@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Idena Plus Popup</title>
+    <style>
+    	body {
+    		margin: 0;
+    		padding: 0;
+    		background: rgb(57, 60, 62);
+    		width: 200px;
+    		border-radius: 8px;
+    	}
+    	img {
+    		margin: auto;
+    		margin-top: 2em;
+    		width: 60px;
+    		display: block;
+    	}
+    	h3 {
+    		font-size: 1.2em;
+    		font-weight: 400;
+    		margin: auto;
+    		color: rgb(203, 203, 203);
+    		margin-top: 10px;
+    		text-align: center;
+    	}
+    	.desc {
+    		display: inline-block;
+		    font-weight: 600;
+		    margin-right: 0;
+		    text-align: left;
+		    width: 50%;
+		    color: rgb(156, 156, 156);
+		    margin-bottom: 0px;
+		    margin-top: 0px;
+    	}
+    	.price {
+    		width: 90%;
+		    margin: auto;
+		    overflow: hidden;
+		    margin-top: 2em;
+    	}
+    	.mar {
+    		margin-top: 0.5em;
+		    width: 100%;
+		    display: block;
+    	}
+    	#USD, #BTC, #ETH, #h24, #d7, #d30 {
+    		width: 50%;
+    		display: inline-block;
+    		float: right;
+    		text-align: right;
+    		color: rgb(255, 228, 165);
+    	}
+    	.wrapper {
+    		width: 90%;
+		    box-sizing: border-box;
+		    margin-top: 2em;
+		    background: rgb(41, 44, 46);
+		    border-radius: 8px;
+		    margin: auto;
+		    margin-top: 1em;
+		    padding: 1em;
+		    padding-bottom: 1.5em;
+		    margin-bottom: 1em;
+    	}
+    	.red {
+    		color: rgb(255, 119, 119) !important;
+		}
+		.green {
+    	color: rgb(129, 226, 150) !important;
+		}
+    </style>
+  </head>
+  <script src="js/popup.js"></script>
+  <body>
+
+  <div class="wrapper">
+
+  	<img src="icon.png"/>
+  	<h3>$DNA Price Summary</h3>
+
+  	<div class="price">
+  		<span class="mar"><p class="desc">USD:</p> <span id="USD">--</span></span>
+  		<span class="mar"><p class="desc">BTC:</p> <span id="BTC">--</span></span>
+  		<span class="mar"><p class="desc">ETH:</p> <span id="ETH">--</span></span>
+  		<span class="mar"><p class="desc">24 hrs:</p> <span id="h24">--</span></span>
+  		<span class="mar"><p class="desc">07 days:</p> <span id="d7">--</span></span>
+  		<span class="mar"><p class="desc">30 days:</p> <span id="d30">--</span></span>
+  	</div>
+
+  </div>
+
+</body>
+</html>
+
