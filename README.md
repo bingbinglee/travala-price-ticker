@@ -8,7 +8,7 @@ Unofficial community built price ticker extension for chrome
 - Show 24 hours, 7days, 30 days, 1 year rolling average
 ```
 
-### Who maintains Idena Plus Extension? 
+### Who maintains Travala Extension? 
 This extension is currently being maintained by [@bingbinglee](https://github.com/bingbinglee/). If you like using this extension please consider donating $AVA
 
 ----
